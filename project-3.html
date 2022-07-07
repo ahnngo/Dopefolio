@@ -87,13 +87,13 @@
         <h1 class="heading-primary">Project 3</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            <strong>Machine Learning</strong> - Cervical Cancer Detection Web App: 
-            Achieving higher detection ability with SVM, Border-SMOTE, and Feature Selection
+            <strong>Deep Learning</strong> - Predicting Student Dropout and Academic Success: 
+            an early prediction to help increase students' academic success
           </p>
         </div>
         <div class="project-cs-hero__cta">
-          <a href="https://ahnngo-cervical-cancer-project-modelsapp-g6re8j.streamlitapp.com/" 
-          class="btn btn--bg" target="_blank">Live Link</a>
+          <a href="https://github.com/ahnngo/Predict-students-dropout-and-academic-success" 
+          class="btn btn--bg" target="_blank">Code Link</a>
         </div>
       </div>
     </section>
@@ -102,7 +102,7 @@
         <div class="project-details__content">
           <div class="project-details__showcase-img-cont">
             <img
-              src="./assets/jpeg/project-mockup-example.jpeg"
+              src="./assets/png/enrollment-age.png"
               alt="Project Image"
               class="project-details__showcase-img"
             />
@@ -111,20 +111,16 @@
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
-                Cervical cancer is the fourth most common cancer in women compared to other types of cancer, 
-                with an estimated 604 000 new cases and 342 000 deaths in 2020. 
-                About 90% of the new cases and deaths worldwide in 2020 occurred in low- and middle-income countries. 
-                Born and raised in Vietnam, a developing country counted in that 90%, I wanted to use the knowledge I know 
-                to create something meaningful for my loved women, especially my mom.
+                The graduation rate of my college, Berea College, is only 62.7%, regardless of the fact that all attending students receive full scholarship, 
+                which means they have free education, accomodation, food, etc. It triggered my curiosity to create a tool to estimate the risk of dropout and failure 
+                based on academic path, demographics, and social-economic factors, helping to provide more accurate help to students by 
+                deploying multiple machine learning classification methods and deep learning.
               </p>
               <p class="project-details__desc-para">
-                The dataset  I have from UCI suffers from imbalance with only less than 9% positive patients 
-                and approximately 20% missing values. Besides, 32 attributes appear redundant to feed a predictive model, 
-                which may lead to potential overfitting. Therefore, several machine learning approaches have been deployed 
-                to deal with the aforementioned problems, such as feature engineering, resampling, and feature selection. 
-                I found that Support Vector Machine Classification, with the support of Border-SMOTE 
-                and Meta-transformer for selecting features based on importance weights for the Hinselmann, 
-                shows the most outstanding performance, with 8 chosen features, generating an accuracy of 98.18%.
+                I was successful to increase the accuracy from 0.78 (Random Forest) to 0.92 by implementing efficient feature engineer 
+                (eliminating outliers and deleting repeating features) and deploying Deep Learning. To make sure my model was not overfitting the data,
+                I have implemented Dropout and EarlyStopping. There are still works to be done with this project, such as implementing feature selections
+                and testing the model on a dataset collected from my own college, which is already planned to be conducted. 
               </p>
             </div>
             <div class="project-details__tools-used">
@@ -137,21 +133,19 @@
                 <div class="skills__skill">Scikit-learn</div>
                 <div class="skills__skill">Tensorflow</div>
                 <div class="skills__skill">Keras</div>
-                <div class="skills__skill">Imblearn</div>
-                <div class="skills__skill">Joblib</div>
-                <div class="skills__skill">Streamlit</div>
+                <div class="skills__skill">Tensorboard</div>
               </div>
             </div>
             <div class="project-details__links">
               <h3 class="project-details__content-title">See More</h3>
-              <a
+              <!-- <a
                 href="https://ahnngo-cervical-cancer-project-modelsapp-g6re8j.streamlitapp.com/"
                 class="btn btn--med btn--theme project-details__links-btn"
                 target="_blank"
                 >Live Link</a
-              >
+              > -->
               <a
-                href="https://github.com/ahnngo/cervical-cancer-project"
+                href="https://github.com/ahnngo/Predict-students-dropout-and-academic-success"
                 class="btn btn--med btn--theme-inv project-details__links-btn"
                 target="_blank"
                 >Code Link</a
